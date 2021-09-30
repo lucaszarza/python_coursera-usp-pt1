@@ -13,7 +13,7 @@ def factorial(num):
 		return fat
 
 def binomial_coefficient(k, n):
-	result = (factorial(k)/(factorial(n)*factorial(k-n)))
+	result = (factorial(k)//(factorial(n)*factorial(k-n)))
 	
 	return result
 
