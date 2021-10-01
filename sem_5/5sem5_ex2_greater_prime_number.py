@@ -37,8 +37,10 @@ def test_prime_numbers_true():
 	assert isPrime(5) == True
 	assert isPrime(11) == True
 	assert isPrime(97) == True
+	assert isPrime(953) == True
 
 def test_prime_numbers_false():
 	assert isPrime(1) == False
 	assert isPrime(10) == False
-	assert isPrime(-3) == False		
+	assert isPrime(-3) == False
+	assert isPrime(961) == False		
